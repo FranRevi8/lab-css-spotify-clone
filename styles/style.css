@@ -67,9 +67,10 @@ ul{
 
 .fondo-verde{
     background-color: #00B172;
-    width: 90%;
+    width: 90vw;
     position: relative;
-    left: 2%;
+    left: 2vw;
+    right: 2vw;
     bottom: 20px;
     padding-left: 75px;
     color: white;
@@ -90,8 +91,8 @@ ul{
 .imagen-pos-1{
     height: 120px;
     position: absolute;
-    top: 46%;
-    left: 45%;
+    top: 44%;
+    left: 44vw;
     bottom: 50%;
     right: 50%;
 }
@@ -160,11 +161,8 @@ ul{
 .subrayar{
     background-color: #00B172;
     height: 4px;
-    width: 280px;
+    width: 15vw;
     position: relative;
-    left: 39%;
+    left: 42vw;
     bottom: 20px;
-    
-    
-    
 }
