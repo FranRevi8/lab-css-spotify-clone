@@ -1,0 +1,170 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+@font-face {
+    font-family: 'Loew Bold';
+    src: url(../../lab-css-spotify-clone/loew-next-font-family-1718007055-0/LoewNext-Bold-BF63fd638abb9de.otf);
+}
+
+@font-face {
+    font-family: 'Loew Standard';
+    src: url(../loew-next-font-family-1718007055-0/LoewNext-Light-BF63fd638b137ef.otf);
+}
+
+
+body{
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+}
+
+.logo{
+    height: 50px;
+    padding-left: 25px;
+}
+
+.barra-arriba{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    
+}
+
+ul{
+    list-style: none;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 0px;
+}
+
+.texto-flotante{
+    text-align: center;
+    background-image: url(../../lab-css-spotify-clone/images/landing.jpg);
+    color: #FFF;
+    height: 600px;
+    background-size: cover;
+    padding-top: 200px;
+
+}
+
+.cajitas{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.fondo-verde{
+    background-color: #00B172;
+    width: 90%;
+    position: relative;
+    left: 2%;
+    bottom: 20px;
+    padding-left: 75px;
+    color: white;
+    height: 700px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.cajita{
+    width: 30%;
+}
+
+.imagen-cajita{
+    height: 80px;
+}
+.imagen-pos-1{
+    height: 120px;
+    position: absolute;
+    top: 46%;
+    left: 45%;
+    bottom: 50%;
+    right: 50%;
+}
+
+.imagen-pos-2{
+    height: 550px;
+    position: absolute;
+    top: 12%;
+    right: 10%
+}
+
+.bottom-text-title{
+    padding-left: 25px;
+    width: 500px;
+    padding-top: 45px;
+    text-decoration: underline;
+    font-family: 'Loew Bold';
+    font-size: 30px;
+}
+
+.bottom-text-1{
+    padding-left: 25px;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: 'Loew Bold';
+}
+
+.bottom-text-2{
+    padding-left: 25px;
+    width: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Loew Standard';
+}
+
+.tf-1{
+    font-size: 80px;
+    font-family: 'Loew Bold';
+}
+
+.tf-2{
+    font-family: 'Loew Standard';
+}
+
+.nav-text{
+    font-family: 'Loew Bold';
+    font-size: 18px;
+}
+
+.cajitas-text{
+    font-family: 'Loew Standard';
+}
+
+.cajitas-title{
+    font-size: 30px;
+    font-family: 'Loew Bold';
+    padding-top: 25px;
+}
+
+.cajitas-green-title{
+    color: #00B172;
+    font-family: 'Loew Bold';
+}
+
+.subrayar{
+    background-color: #00B172;
+    height: 4px;
+    width: 280px;
+    position: relative;
+    left: 39%;
+    bottom: 20px;
+    
+    
+    
+}
