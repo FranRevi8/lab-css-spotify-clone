@@ -9,7 +9,7 @@ White: #FFF
 
 @font-face {
     font-family: 'Loew Bold';
-    src: url(../../lab-css-spotify-clone/loew-bold-maisfontes.5f1b/loew-bold.otf);
+    src: url(../loew-bold-maisfontes.5f1b/loew-bold.otf);
 }
 
 @font-face {
@@ -54,7 +54,7 @@ ul{
 
 .texto-flotante{
     text-align: center;
-    background-image: url(../../lab-css-spotify-clone/images/landing.jpg);
+    background-image: url(../images/landing.jpg);
     color: #FFF;
     height: 800px;
     background-size: cover;
