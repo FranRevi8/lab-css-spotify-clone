@@ -168,8 +168,12 @@ ul{
 .subrayar{
     background-color: #00B172;
     height: 4px;
-    width: 15vw;
+    width: 282px;
     position: relative;
-    left: 42vw;
     bottom: 20px;
+}
+
+.centereado{
+    display: flex;
+    justify-content: center;
 }
